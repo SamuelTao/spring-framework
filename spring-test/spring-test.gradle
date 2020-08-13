@@ -98,10 +98,10 @@ task junit4(type: Test) {
 
 task junitJupiter(type: Test) {
 	description = "Runs JUnit Jupiter tests."
-	useJUnitPlatform {
-		includeEngines "junit-jupiter"
-		excludeTags "failing-test-case"
-	}
+//	useJUnitPlatform {
+//		includeEngines "junit-jupiter"
+//		excludeTags "failing-test-case"
+//	}
 	filter {
 		includeTestsMatching "org.springframework.test.context.junit.jupiter.*"
 	}
