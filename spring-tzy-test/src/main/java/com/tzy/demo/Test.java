@@ -1,6 +1,5 @@
 package com.tzy.demo;
 
-//import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import com.tzy.demo.dao.UserDao;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
